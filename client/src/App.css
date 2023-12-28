@@ -4,5 +4,9 @@
 }
 
 .App > div {
-    margin-right: 50;;
+    margin-right: 50;
 }
+
+div + div {
+    margin-left: 20px; /* Измените значение на желаемое */
+  }
