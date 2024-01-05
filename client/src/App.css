@@ -1,12 +1,14 @@
 .App {
     padding: 30px;
     display: flex;
+    height: 10em;
+    position: relative
 }
 
 .App > div {
     margin-right: 50;
 }
 
-div + div {
+.App.div + .App.div {
     margin-left: 20px; /* Измените значение на желаемое */
   }
